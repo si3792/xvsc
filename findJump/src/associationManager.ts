@@ -30,12 +30,12 @@ export class AssociationManager {
     const type = window.createTextEditorDecorationType({
       backgroundColor: new ThemeColor('editor.wordHighlightBackground'),
       before: {
+        margin: '0 4px 0 0',
         contentText: finalLetter,
-        margin: '0 5px 0 5px',
-        backgroundColor: '#4169E1',
+        backgroundColor: '#f54242',
         border: '3px solid',
         color: 'white',
-        borderColor: '#4169E1',
+        borderColor: '#f54242',
       },
     })
 
